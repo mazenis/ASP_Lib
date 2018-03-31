@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+body {
+	background-color: #00000;
+}
+        #content
+        {
+            text-align: center;
+        }
+        #form1
+        {
+            text-align: center;
+        }
+    </style>
+<script language="javascript" type="text/javascript">
+// <!CDATA[
+
+
+
+// ]]>
+</script>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="learning">
+  <div align="center" class="styles">
+      <br />
+<div>
+  <div align="center">
+  <div align="center">
+      <img src="Images/logo.png" 
+          style="border-style: inherit; border-width: inherit; width: 920px; height: 90px" /><br />
+      <br />
+    <table width="727" border="1" align="center">
+      <tr>
+        <td width="140">
+
+            <li><a href="../Home.aspx">
+                <asp:Button ID="ButHome" runat="server" CssClass="button-1" 
+                    PostBackUrl="~/" Text="Home" />
+                </a></li>
+            </td><td width="138">
+            <li><a href="../SBSubject.aspx">
+                <asp:Button ID="ButSBSubject" runat="server" CssClass="button-1" 
+                    PostBackUrl="~/SBSubject.aspx" Text="Search By Subject" />
+                </a></li>
+        <td width="138">
+            <li><a href="../Shopping.aspx">
+                <asp:Button ID="ButShopping" runat="server" CssClass="button-1" 
+                    PostBackUrl="~/Shopping.aspx" Text="Shopping" />
+                </a></li>
+        <td width="136">
+            <li>
+                <asp:Button ID="ButOrder" runat="server" CssClass="button-1" 
+                    PostBackUrl="~/Order.aspx" Text="Order" />
+            </li>
+      </tr>
+    </table>
+  </div>
+      <br />
+      <br />
+  </div>
+</div>
+<div id="content">
+  <div>
+    <blockquote style="text-align: center">
+      <blockquote style="border-style: inherit; border-width: inherit; width: auto; text-align: center; position: inherit; z-index: inherit;">
+        <blockquote>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+          <p align="center" class="styles.css">
+                            </p>
+            <p align="center">
+                            </p>
+            <p align="center">
+                            </p>
+            <p align="center">
+                            </p>
+            <p align="center">
+                            </p>
+            <p align="center" class="styles">
+                            </p>
+            <p align="center">
+                            </p>
+            <p align="center">
+                &nbsp;</p>
+            <p align="center">
+                &nbsp;</p>
+            <p align="center">
+                &nbsp;</p>
+            <p style="text-align: center" align="center">
+                &nbsp;</p>
+        
+        </asp:ContentPlaceHolder>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </div>
+</div>
+      <br />
+      <br />
+      <br />
+        <img class="footer_picutre" src="Images/footer.png" /><br />
+      <br />
+    </div>
+</div>
+    </form>
+</body>
+</html>
